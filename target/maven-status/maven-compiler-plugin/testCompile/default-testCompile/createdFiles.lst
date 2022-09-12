@@ -1,2 +1,2 @@
-org/acme/resteasy/NativeExampleResourceIT.class
-org/acme/resteasy/ExampleResourceTest.class
+org\acme\resteasy\ExampleResourceTest.class
+org\acme\resteasy\NativeExampleResourceIT.class

@@ -3,9 +3,9 @@
   "kind" : "ServiceAccount",
   "metadata" : {
     "annotations" : {
-      "app.quarkus.io/build-timestamp" : "2020-10-15 - 11:36:37 +0000",
+      "app.quarkus.io/build-timestamp" : "2022-09-12 - 09:39:27 +0000",
       "app.openshift.io/vcs-url" : "https://github.com/schmti/quarkus-webinar.git",
-      "app.quarkus.io/commit-id" : "83e3379e187c3e85097ff72fdddfadd73f0202db",
+      "app.quarkus.io/commit-id" : "28f74816c560004e167ca4fed93ab551b191169f",
       "app.quarkus.io/vcs-url" : "https://github.com/schmti/quarkus-webinar.git"
     },
     "labels" : {
@@ -20,9 +20,9 @@
   "kind" : "Service",
   "metadata" : {
     "annotations" : {
-      "app.quarkus.io/build-timestamp" : "2020-10-15 - 11:36:37 +0000",
+      "app.quarkus.io/build-timestamp" : "2022-09-12 - 09:39:27 +0000",
       "app.openshift.io/vcs-url" : "https://github.com/schmti/quarkus-webinar.git",
-      "app.quarkus.io/commit-id" : "83e3379e187c3e85097ff72fdddfadd73f0202db",
+      "app.quarkus.io/commit-id" : "28f74816c560004e167ca4fed93ab551b191169f",
       "app.quarkus.io/vcs-url" : "https://github.com/schmti/quarkus-webinar.git"
     },
     "labels" : {
@@ -49,9 +49,9 @@
   "kind" : "ImageStream",
   "metadata" : {
     "annotations" : {
-      "app.quarkus.io/build-timestamp" : "2020-10-15 - 11:36:37 +0000",
+      "app.quarkus.io/build-timestamp" : "2022-09-12 - 09:39:27 +0000",
       "app.openshift.io/vcs-url" : "https://github.com/schmti/quarkus-webinar.git",
-      "app.quarkus.io/commit-id" : "83e3379e187c3e85097ff72fdddfadd73f0202db",
+      "app.quarkus.io/commit-id" : "28f74816c560004e167ca4fed93ab551b191169f",
       "app.quarkus.io/vcs-url" : "https://github.com/schmti/quarkus-webinar.git"
     },
     "labels" : {
@@ -69,9 +69,9 @@
   "kind" : "ImageStream",
   "metadata" : {
     "annotations" : {
-      "app.quarkus.io/build-timestamp" : "2020-10-15 - 11:36:37 +0000",
+      "app.quarkus.io/build-timestamp" : "2022-09-12 - 09:39:27 +0000",
       "app.openshift.io/vcs-url" : "https://github.com/schmti/quarkus-webinar.git",
-      "app.quarkus.io/commit-id" : "83e3379e187c3e85097ff72fdddfadd73f0202db",
+      "app.quarkus.io/commit-id" : "28f74816c560004e167ca4fed93ab551b191169f",
       "app.quarkus.io/vcs-url" : "https://github.com/schmti/quarkus-webinar.git"
     },
     "labels" : {
@@ -87,9 +87,9 @@
   "kind" : "BuildConfig",
   "metadata" : {
     "annotations" : {
-      "app.quarkus.io/build-timestamp" : "2020-10-15 - 11:36:37 +0000",
+      "app.quarkus.io/build-timestamp" : "2022-09-12 - 09:39:27 +0000",
       "app.openshift.io/vcs-url" : "https://github.com/schmti/quarkus-webinar.git",
-      "app.quarkus.io/commit-id" : "83e3379e187c3e85097ff72fdddfadd73f0202db",
+      "app.quarkus.io/commit-id" : "28f74816c560004e167ca4fed93ab551b191169f",
       "app.quarkus.io/vcs-url" : "https://github.com/schmti/quarkus-webinar.git"
     },
     "labels" : {
@@ -123,9 +123,9 @@
   "kind" : "DeploymentConfig",
   "metadata" : {
     "annotations" : {
-      "app.quarkus.io/build-timestamp" : "2020-10-15 - 11:36:37 +0000",
+      "app.quarkus.io/build-timestamp" : "2022-09-12 - 09:39:27 +0000",
       "app.openshift.io/vcs-url" : "https://github.com/schmti/quarkus-webinar.git",
-      "app.quarkus.io/commit-id" : "83e3379e187c3e85097ff72fdddfadd73f0202db",
+      "app.quarkus.io/commit-id" : "28f74816c560004e167ca4fed93ab551b191169f",
       "app.quarkus.io/vcs-url" : "https://github.com/schmti/quarkus-webinar.git"
     },
     "labels" : {
@@ -144,9 +144,9 @@
     "template" : {
       "metadata" : {
         "annotations" : {
-          "app.quarkus.io/build-timestamp" : "2020-10-15 - 11:36:37 +0000",
+          "app.quarkus.io/build-timestamp" : "2022-09-12 - 09:39:27 +0000",
           "app.openshift.io/vcs-url" : "https://github.com/schmti/quarkus-webinar.git",
-          "app.quarkus.io/commit-id" : "83e3379e187c3e85097ff72fdddfadd73f0202db",
+          "app.quarkus.io/commit-id" : "28f74816c560004e167ca4fed93ab551b191169f",
           "app.quarkus.io/vcs-url" : "https://github.com/schmti/quarkus-webinar.git"
         },
         "labels" : {
@@ -177,7 +177,7 @@
             "name" : "JAVA_LIB_DIR",
             "value" : "/deployments/lib"
           } ],
-          "image" : "schmti/webinar-demo:1.0.0-SNAPSHOT",
+          "image" : "na/webinar-demo:1.0.0-SNAPSHOT",
           "imagePullPolicy" : "IfNotPresent",
           "name" : "webinar-demo",
           "ports" : [ {
@@ -206,9 +206,9 @@
   "kind" : "Route",
   "metadata" : {
     "annotations" : {
-      "app.quarkus.io/build-timestamp" : "2020-10-15 - 11:36:37 +0000",
+      "app.quarkus.io/build-timestamp" : "2022-09-12 - 09:39:27 +0000",
       "app.openshift.io/vcs-url" : "https://github.com/schmti/quarkus-webinar.git",
-      "app.quarkus.io/commit-id" : "83e3379e187c3e85097ff72fdddfadd73f0202db",
+      "app.quarkus.io/commit-id" : "28f74816c560004e167ca4fed93ab551b191169f",
       "app.quarkus.io/vcs-url" : "https://github.com/schmti/quarkus-webinar.git"
     },
     "labels" : {
